@@ -1,0 +1,39 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "level": {
+        "id": "level",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMGUwMDBmMDAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwOTBiMGIwYjBiMGEwMDAwMDAwMDAwMDAwMDAwMDAwMDA4MGMwYzBjMGMwZDAwMDAwMDAwMDAwMDAwMDAwMDAwMDUwNzA3MDcwNzA2MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTEwMDExMDAxMjAwMTMwMDBlMDAwZjAwMTAwMDExMDAwNDA0MDQwNDA0MDQwNDA0MDQwNDA0MDQwNDA0MDQwNDAyMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIwMjIyMjAyMDAwMDAwMDAyMDIyMjIwMjAwMDAwMDAwMjAyMjIyMDIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.builtin.oceanDepths10",
+            "sprites.builtin.oceanDepths8",
+            "sprites.builtin.oceanDepths9",
+            "sprites.builtin.oceanDepths4",
+            "sprites.builtin.oceanSand13",
+            "sprites.builtin.oceanSand15",
+            "sprites.builtin.oceanSand14",
+            "sprites.builtin.oceanSand8",
+            "sprites.builtin.oceanSand5",
+            "sprites.builtin.oceanSand7",
+            "sprites.builtin.oceanSand6",
+            "sprites.builtin.oceanSand9",
+            "sprites.builtin.oceanSand11",
+            "sprites.builtin.coral0",
+            "sprites.builtin.coral1",
+            "sprites.builtin.coral2",
+            "sprites.builtin.coral3",
+            "sprites.builtin.coral4",
+            "sprites.builtin.coral5"
+        ]
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
