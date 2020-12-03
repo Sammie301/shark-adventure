@@ -1134,9 +1134,9 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             info.startCountdown(t)
             clownfish.destroy(effects.bubbles, 100)
             music.powerUp.play()
-            clownfish.say("+500pts", 750)
+            mySprite.say("+500pts", 750)
             pause(750)
-            clownfish.say("+3sec", 750)
+            mySprite.say("+3sec", 750)
             info.changeScoreBy(500)
         }
         bite = 0
@@ -1753,7 +1753,8 @@ let clamX = 0
 let clam: Sprite = null
 let mySprite: Sprite = null
 let t = 0
-game.splash("Shark Adventure!", "Press 'A' to Eat")
+game.splash("Shark Adventure!", "Press 'A' to Eat Fish")
+game.splash("Watch Out for Crabs!", "Try to Find the Pearl!")
 tiles.setTilemap(tilemap`level`)
 scene.setBackgroundImage(img`
     8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
@@ -2155,7 +2156,7 @@ game.onUpdateInterval(5000, function () {
     100,
     true
     )
-    if (Math.percentChance(15)) {
+    if (Math.percentChance(25)) {
         if (clownfish) {
             clownfish.destroy(effects.bubbles, 100)
         }
@@ -2254,7 +2255,7 @@ game.onUpdateInterval(5000, function () {
         true
         )
     }
-    if (Math.percentChance(25)) {
+    if (Math.percentChance(30)) {
         if (crab) {
             crab.destroy(effects.bubbles, 100)
         }
